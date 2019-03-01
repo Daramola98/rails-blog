@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p><%= @page.title %></p>
+<p><%= @page.body %></p>
+
+<%= link_to "Edit Page", edit_page_path %>
+<br />
+<%= link_to 'Delete Page', page_path, method: :delete, data: { confirm: 'Are you sure?' }  %>
+<br/>
+<%= link_to "Back to Pages", pages_path %>

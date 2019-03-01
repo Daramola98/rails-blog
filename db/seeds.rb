@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Subscriber.create(name: 'Jay')
+Subscriber.create(name: 'Pasan')
+Magazine.create(title: 'Ruby Reader')
+Magazine.create(title: 'iOS Inspired')
